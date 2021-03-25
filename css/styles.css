@@ -1,0 +1,94 @@
+body {
+	color:#FF0033;}
+
+.bgimage {
+	background-image:url(../images/nishinoya-yuu.jpg);
+	background-position:center;
+	background-size:cover;
+	height:400px;}
+	
+.icon {
+  max-width: 250px;
+  margin: 0 auto;
+  display: block;
+}
+
+.services section {
+  text-align: center;
+}
+
+h2 {
+	font-size:58px;
+	margin:25px;}
+	
+@media(min-width: 1200px) {
+	.content section h1 {
+		font-size: 40px;}
+	p {
+		font-size: 20px;}
+	.content section {
+		text-align: center;}}
+
+.nav {
+	font-size: 50px;
+	margin-top: 50px;
+	color: black;
+	background-color: gray;
+}
+.nav-item a {
+	color: black;
+}
+.nav-item a:hover {
+	color: blue;
+}
+.nav-item a:active {
+	color: pink;
+}
+
+/*.nav-tabs li a {
+    color: #777;
+	margin: auto;
+}
+.navbar {
+	font-family: Montserrat, sans-serif;
+	margin-bottom: 0;
+	background-color: #FFB6C1;
+	border: 0;
+	font-size: 20px !important;
+	letter-spacing: 4px;
+	opacity: 0.9;
+	margin-right: auto;
+}
+.navbar li a, .navbar .navbar-brand { 
+	color: #000 !important;
+	margin-left:5px;
+	margin-right:5px;
+}
+.navbar-nav li a:hover {
+	color: #fff !important;
+}
+.navbar-nav li.active a {
+	color: #fff !important;
+	background-color: #29292c !important;
+}
+.navbar-default .navbar-toggle {
+	border-color: transparent;
+	margin: auto;
+}*/
+
+footer {
+    background-color: gray;
+    color: #f5f5f5;
+    padding: 32px;
+    margin-top: 50px;
+}
+footer p {
+	font-size: 10px;
+}
+footer a {
+    color: #f5f5f5;
+}
+footer a:hover {
+    color: #777;
+    text-decoration: none;
+}
