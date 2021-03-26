@@ -2,7 +2,7 @@ body {
 	color:#FF0033;}
 
 .bgimage {
-	background-image:url(../images/nishinoya-yuu.jpg);
+	background-image:url(../images/skyline.jpg);
 	background-position:center;
 	background-size:cover;
 	height:400px;}
@@ -27,20 +27,24 @@ body {
 	.content section {
 		text-align: center;}}
 
+/* Nav bar */
 .nav {
 	font-size: 50px;
 	margin-top: 50px;
 	color: black;
-	background-color: gray;
+	background-color: #d77a61;
 }
+/* Text */
 .nav-item a {
-	color: black;
+	color: #dbd3d8;
 }
+/* Text when hovering */
 .nav-item a:hover {
-	color: blue;
+	color: #d77a61;
 }
+/* Text When Clicked */
 .nav-item a:active {
-	color: pink;
+	color: #223843;
 }
 
 /*.nav-tabs li a {
@@ -75,7 +79,7 @@ body {
 }*/
 
 footer {
-    background-color: gray;
+    background-color: #d77a61;
     color: #f5f5f5;
     padding: 32px;
     margin-top: 50px;
